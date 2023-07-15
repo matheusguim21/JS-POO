@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criando Classe User</title>
+  <script src="index.js" defer></script>
+  <style>
+    body{
+      background-color: black;
+    }
+    form{margin-top: 10%;
+  background-color: rgb(201, 11, 11);
+  color: white;
+  width: 300px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+  </style>
+  
+
+</head>
+<body>
+  <form action="" class="creationForm">
+    <label for="fullname">Nome Completo</label>
+    <input type="text" name="fullname" id="fullname">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email">
+    <label for="password">Senha</label>
+    <input type="text" name="password" id="password">
+    <input type="submit" value="Criar">
+  </form>
+  <form action="" class="autenticationForm">
+    
+    <label for="emailLogin">Email</label>
+    <input type="text" name="emailLogin" id="emailLogin">
+    <label for="passwordLogin">Senha</label>
+    <input type="text" name="passwordLogin" id="passwordLogin">
+    <input type="submit" value="Logar">
+  </form>
+  <form action="" class="createProduct" >
+  
+    
+    <label for="nameProduct">Nome do Produto</label>
+    <input type="text" name="nameProduct" id="nameProduct">
+    <label for="description">Descrição</label>
+    <textarea id="description" name="description" id="" cols="20" rows="3" ></textarea>
+    <label for="price">Preço</label>
+    <input type="number" name="price" id="price">
+    
+    <input type="submit" value="Criar">
+  </form>
+  <form action="" class="desconto">
+    <label for="add">Quantidade a adicionar</label>
+    <input type="number" name="add" id="add">
+    <label for="discount">Desconto</label>
+    <input type="number" name="discount" id="discount">
+    <input type="submit" value="Dar desconto">
+  </form>
+</body>
+</html>
